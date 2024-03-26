@@ -8,15 +8,14 @@ public class UserServiceTests
         //arrange
         var userService = new UserService();
         //act 
-        var result = userService.AddUser(
+        Action action = () => userService.AddUser(
          null,
          "kowalski",
          "kowalski@gmail.com",
-         DateTime.Parse("2000-01-01"),
-         1
+         DateTime.Parse("2000-01-01"),-
+         100
         );
         //assert
-        Assert.Equal(false, result);
-        Assert.False(result);
+        Assert.Throws<ArgumentException>(action);
     }
 }
