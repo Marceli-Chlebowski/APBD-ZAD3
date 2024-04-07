@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PJ0rshhm9g/qmKOANRl4KrUE+YKczx0Vsagknr5OnrOLvhVS0FhGXIhmHEqC1reSiLhTB2H0JgPG0WTiVy4OAQ==",
+  "dgSpecHash": "9Sq6YEJUG6uZIAQs0ML48UBWinIdXIMgzDWzyUEoB2FMGOSmrbfij5oaNheN5IZUXYrcRtYlwMJaMu+3L73aog==",
   "success": true,
   "projectFilePath": "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
+  ],
   "logs": []
 }
