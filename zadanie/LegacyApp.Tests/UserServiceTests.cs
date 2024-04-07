@@ -16,7 +16,7 @@ public class UserServiceTests
             1
         );
         //assert
-        Assert.Equal(false, result);
+        Assert.False(result);
         Assert.False(result);
     } 
 }
