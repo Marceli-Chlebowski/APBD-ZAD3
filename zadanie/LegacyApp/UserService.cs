@@ -28,6 +28,18 @@ namespace LegacyApp
 
         private static bool AddUserAccurate(Client client, User user)
         {
+            ImportantClientMethod(client, user);
+
+            if (user.HasCreditLimit && user.CreditLimit < 500)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        private static void ImportantClientMethod(Client client, User user)
+        {
             if (client.Type == "VeryImportantClient")
             {
                 user.HasCreditLimit = false;
@@ -46,13 +58,6 @@ namespace LegacyApp
                 var creditLimit = userCreditService.GetCreditLimit(user.LastName, user.DateOfBirth);
                 user.CreditLimit = creditLimit;
             }
-
-            if (user.HasCreditLimit && user.CreditLimit < 500)
-            {
-                return false;
-            }
-
-            return true;
         }
 
         private static bool User(string firstName, string lastName, string email, DateTime dateOfBirth)
