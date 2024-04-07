@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s26802\\Documents\\GitHub\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj": {}
+    "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s26802\\Documents\\GitHub\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj": {
+    "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s26802\\Documents\\GitHub\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "projectUniqueName": "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj",
         "projectName": "LegacyApp",
-        "projectPath": "C:\\Users\\s26802\\Documents\\GitHub\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj",
-        "packagesPath": "C:\\Users\\s26802\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s26802\\Documents\\GitHub\\APBD-ZAD3\\zadanie\\LegacyApp\\obj\\",
+        "projectPath": "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\APBD-ZAD3\\zadanie\\LegacyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s26802\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
